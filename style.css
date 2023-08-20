@@ -1,9 +1,14 @@
 .desktop {
   background-image: url(Images/unsplash_ELf8M_YWRTY.png);
   padding: 10px;
-  /* position: relative; */
+  /* position: absolute; */
+  /* width: 1440px;*/
   height: 927px;
-  width: 1440px;
+  width: 100%;
+  /* height: 200%; */
+  left: 0px;
+  top: 0px;
+  /* opacity: 0.9; */
 }
 
 .p-3 {
@@ -99,7 +104,7 @@
   font-family: Poppins;
   font-size: 48px;
   font-weight: 700;
-  line-height: 118px;
+  /* line-height: 118px; */
   letter-spacing: -0.04em;
   text-align: left;
   color: rgba(75, 64, 197, 1);
@@ -109,8 +114,37 @@
   font-family: Poppins;
   font-size: 32px;
   font-weight: 700;
-  line-height: 48px;
+  /* line-height: 48px; */
   letter-spacing: 0em;
   text-align: left;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.category {
+  padding: 30px;
+}
+
+.heading2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.9422px;
+  line-height: 36px;
+  /* text-align: center; */
+  color: #5e6282;
+}
+
+.tagline2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  text-transform: capitalize;
+  color: #14183e;
+}
+
+.easyFast {
+  padding: 40px;
 }
